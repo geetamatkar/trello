@@ -25,8 +25,16 @@ function Header() {
 
 
                 {/* Avatar */}
-                <Avatar name='Geeta' round size='80' color='#D291BC'/>
+                <Avatar name='Geeta' round size='50' color='#D291BC'/>
             </div>
+         </div>
+
+         <div className='flex items-center justify-center px-5 md:py-5'>
+            <p className='flex p-5 items-center text-sm font-light pr-5 shadow-xl rounded-xl w-fit bg-white italic max-w-3xl text-[#D291BC]'>
+                <UserCircleIcon  className='inline-block h-10 w-10 text-[#D291BC] mr-1'/>
+                GPT is summarising your tasks...
+            </p>
+
          </div>
     </header>
   )
